@@ -1,0 +1,29 @@
+{
+  "name": "goodsense-digital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.0.1",
+    "reactify": "^1.1.1",
+    "through2": "^2.0.0"
+  },
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "fbjs": "^0.2.1",
+    "material-ui": "^0.12.3",
+    "react": "^0.13.3",
+    "react-dom": "^0.14.0",
+    "react-router": "^0.13.4",
+    "react-tap-event-plugin": "^0.1.8"
+  }
+}
