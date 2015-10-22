@@ -1,10 +1,15 @@
 var React = require('react');
+var RouteHandler = require('react-router').RouteHandler;
+const AppBar = require('material-ui/lib/app-bar');
 
 var App = React.createClass({
   render: function () {
     return (
       <div>
-        <h1>hello</h1>
+        <AppBar
+          title="Title"
+          iconClassNameRight="muidocs-icon-navigation-expand-more" />
+        <RouteHandler />
       </div>
     )
   }
