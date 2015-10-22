@@ -3,6 +3,7 @@ var RouteHandler = require('react-router').RouteHandler;
 const AppBar = require('material-ui/lib/app-bar');
 
 var App = React.createClass({
+
   render: function () {
     return (
       <div>

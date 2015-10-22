@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html style="font-family: 'Roboto', sans-serif;">
   <head>
     <meta charset="utf-8">
     <title>Goodsense Digital</title>
   </head>
-  <body>
+  <body style="margin: 0px; padding: 0px;">
     <div id='app'></div>
+    <script>
+      var WebFontConfig = {
+        google: { families: [ 'Roboto:400,300,500:latin' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
     <script src="main.js"></script>
   </body>
 </html>
